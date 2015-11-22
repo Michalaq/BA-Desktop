@@ -1,0 +1,69 @@
+{
+	"id": 1,
+	"layerCount": 5,
+	"bgScenery": "BLUE_SKY_CLOUDS",
+	"timeLeft": 60,
+	"clouds": [
+		{
+			"cloud_type": "SPIKY",
+			"x": 0.06,
+			"y": 0.05,
+			"transformations": [
+				{
+					"trans_type": "box",
+					"values": [
+						0.06,
+						0.05,
+						0.95,
+						0,
+						0.25,
+						0
+					]
+				}
+			]
+		},
+		{
+			"cloud_type": "SPIKY",
+			"x": 0.06,
+			"y": 0.1,
+			"transformations": [
+				{
+					"trans_type": "box",
+					"values": [
+						0.06,
+						0.1,
+						0.95,
+						0,
+						0.5,
+						0
+					]
+				}
+			]
+		},
+		{
+			"cloud_type": "SPIKY",
+			"x": 0.06,
+			"y": 0.16,
+			"transformations": [
+				{
+					"trans_type": "box",
+					"values": [
+						0.06,
+						0.16,
+						0.95,
+						0,
+						1,
+						0
+					]
+				}
+			]
+		}
+	],
+	"field": {
+		"field_type": "circular",
+		"texture": "GRASS",
+		"x": 0.5,
+		"y": 1,
+		"radius": 0.5
+	}
+}
