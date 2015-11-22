@@ -21,10 +21,12 @@ import balloonadventure.level.BalloonAdventureMenuManager;
 
 public class Game
 {
-	private static final String SOUND_PATH = "assets\\sounds\\",
-								CONFIG_PATH = "assets\\config\\",
-								GRAPHIC_CONFIG_PATH = "assets\\graphics\\",
-								GRAPHICS_PATH = "assets\\graphics\\"; 
+	/* note that if exporting to jar, absolute paths to assets are needed */
+	private static final String ASSETS_PATH = ".\\assets\\"; // works in Eclipse
+	private static final String SOUND_PATH = ASSETS_PATH + "sounds\\",
+								CONFIG_PATH = ASSETS_PATH + "config\\",
+								GRAPHIC_CONFIG_PATH = ASSETS_PATH + "graphics\\",
+								GRAPHICS_PATH = ASSETS_PATH + "graphics\\"; 
 	private static JPanel jpnl;
 	private static LevelView levelView;
 	private static AWTGraphicsDrawer awtGraphicsDrawer;
